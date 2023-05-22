@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import { createBrowserRouter, RouterProvider, Route, Outlet } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Product } from './pages/Product';
 import { Products } from './pages/Products';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import './app.scss';
 
 const Layout = () => {
     return (

@@ -1,0 +1,30 @@
+.navbar {
+    height: 80px;
+
+    .wrapper {
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .item {
+            font-size: 18px;
+        }
+
+        .item,
+        .left,
+        .right {
+            display: flex;
+            align-items: center;
+        }
+
+        .left,
+        .right {
+            gap: 25px;
+        }
+
+        .center {
+            font-size: 30px;
+        }
+    }
+}
