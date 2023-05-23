@@ -67,7 +67,7 @@ export const Navbar = () => {
                         <FavoriteBorderOutlinedIcon />
                         <div className="cartIcon">
                             <ShoppingCartOutlinedIcon />
-                            <span>0</span>
+                            <span className="centered">0</span>
                         </div>
                     </div>
                 </div>
