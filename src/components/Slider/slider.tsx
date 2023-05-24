@@ -13,11 +13,19 @@ const data = [
 ];
 
 const NextArrow: React.FC<CustomArrowProps> = ({ onClick }) => {
-    return <button onClick={onClick}>Next</button>;
+    return (
+        <button className="arrow-btn arrow-right" onClick={onClick}>
+            <ArrowForwardOutlinedIcon />
+        </button>
+    );
 };
 
 const PrevArrow: React.FC<CustomArrowProps> = ({ onClick }) => {
-    return <button onClick={onClick}>Previous</button>;
+    return (
+        <button className="arrow-btn arrow-left" onClick={onClick}>
+            <ArrowBackOutlinedIcon />
+        </button>
+    );
 };
 
 export const Slider = () => {
