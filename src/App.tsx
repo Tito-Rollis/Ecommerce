@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Product } from './pages/Product';
-import { Products } from './pages/Products';
+import { Home } from './pages/Home/home';
+import { Product } from './pages/Product/product';
+import { Products } from './pages/Products/products';
 import { Navbar } from './components/Navbar/navbar';
 import { Footer } from './components/Footer';
 import './app.scss';
